@@ -1,0 +1,17 @@
+# dbt build artifacts
+target/
+logs/
+dbt_packages/
+
+# dbt credentials
+profiles.yml
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+``

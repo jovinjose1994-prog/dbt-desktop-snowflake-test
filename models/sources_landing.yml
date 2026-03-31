@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: landing
+    database: SLEEKMART_OMS
+    schema: L1_LANDING
+    tables:
+      - name: customers
+      - name: orders
+      - name: orderitems
+      - name: products
+      - name: suppliers
