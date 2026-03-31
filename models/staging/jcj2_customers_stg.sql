@@ -14,5 +14,6 @@ SELECT
         LEFT(TRIM(COALESCE(FirstName, '')), 1) ||
         LEFT(TRIM(COALESCE(LastName, '')), 1)
     ) AS Initials,
-    CONCAT(COALESCE(FirstName, ''), 'x', COALESCE(LastName, '')) AS FullName_X
+    CONCAT(COALESCE(FirstName, ''), 'x', COALESCE(LastName, '')) AS FullName_X,
+    CONCAT(COALESCE(FirstName, ''), 'Y', COALESCE(LastName, '')) AS FullName_Y
 FROM {{ source('landing', 'customers') }}
