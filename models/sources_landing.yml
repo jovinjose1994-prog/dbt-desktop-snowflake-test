@@ -1,12 +1,12 @@
 version: 2
 
 sources:
-  - name: landing
-    database: SLEEKMART_OMS
-    schema: L1_LANDING
+  - name: nta_dev
+    database: NTA_DEV
+    schema: JCJ_REPORTING
     tables:
-      - name: customers
-      - name: orders
-      - name: orderitems
-      - name: products
-      - name: suppliers
+      - name: JOINED_CALL_REPORT
+      - name: JOINED_CONTACT_REPORT
+
+
+     
